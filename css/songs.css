@@ -1,0 +1,58 @@
+.box{
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+
+}
+
+.song{
+  color: white;
+  background-image: url("../images/pic3.jpg");
+  margin: 1em;
+  border-radius: 1em;
+  width: 100%;
+  transition: all .7s ease;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+video{
+  padding: 1em;
+  width: 90%;
+}
+
+aside{
+  display: inline-block;
+  margin-bottom: .5em;
+  width: 90%;
+  border-radius: .5em;
+  background-color: rgba(0, 78, 204, 0.75);
+  font-size: 3vw;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-family: fantasy;
+  font-style:italic;
+}
+
+span{
+  display: block;
+  padding-top: 1em;
+  font-family: monospace;
+  font-size: 3vw;
+}
+
+@media (min-width: 800px){
+  .song{
+    width: 45%;
+    float: left;
+  }
+
+  span{
+    font-size: 2vw;
+  }
+
+  aside{
+    font-size: 1.6vw;
+  }
+}

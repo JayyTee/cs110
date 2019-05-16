@@ -1,0 +1,61 @@
+body{
+  background: rgb(163,4,4);
+  background: linear-gradient(90deg, rgba(163,4,4,1) 0%, rgba(43,1,1,1) 100%);
+  margin: 0;
+}
+
+.container{
+  text-align: center;
+  margin-left: 15%;
+  margin-top: 1em;
+  width: 70%;
+  /* padding-bottom: 50%; */
+  background-color: white;
+
+  -webkit-box-shadow: 10px 10px 61px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 61px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 61px 0px rgba(0,0,0,0.75);
+
+  border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  border: 0px solid #000000;
+}
+
+img{
+  max-width: 80%;
+  padding: .5em;
+
+}
+
+.text{
+  padding-left: .5em;
+  padding-right: .5em;
+  line-height: 2em;
+  font-family: fantasy;
+  font-size: 2em;
+}
+h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 5em;
+  font-family: "Lobster";
+  text-shadow: -1px 0 black, 0 5px black, 5px 0 black, 0 -1px black;
+}
+
+iframe{
+  display: none;
+  width: 95%;
+}
+
+@media (min-width: 900px )
+{
+  .container{
+    text-align: left;
+  }
+  img{
+    padding-right: 1em;
+    float:left;
+  }
+}

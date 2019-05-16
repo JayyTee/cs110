@@ -1,0 +1,43 @@
+body{
+  background-image: url("../images/blur1.jpg");
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+}
+
+html {
+  height: 100%
+}
+
+/* Home page greeting */
+#greeting1{
+  font-family: "Lobster";
+  color: #eaeaea;
+  text-align: center;
+  max-width: 100%;
+  font-size: 4.5vw;
+
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+#greeting2{
+  font-family: "Lobster";
+  color: #eaeaea;
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  font-size: 2.5em;
+  text-shadow: -1px 0 black, 0 2px black, 2px 0 black, 0 -1px black;
+}
+.backgrounded{
+  margin-top: 1em;
+}
+
+main div{
+  margin-top: .5em;
+}
+
+@media (max-width: 600px){
+  #greeting1{
+    font-size: 3em;
+  }
+}

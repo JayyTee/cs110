@@ -1,0 +1,92 @@
+body{
+  width: 100%;
+}
+
+/* Navbar / header Styles */
+
+header{
+  font-family:"Akronim";
+  font-size: 2.5em;
+  background-color: #f24000;
+  background-color: rgba(255, 72, 0, 0.25);
+  overflow: auto;
+  text-align: center;
+}
+nav{
+  font-family:"Just Another Hand";
+  font-size: 1.5em;
+  background-color: rgba(255, 72, 0, 0.25);
+  overflow: auto;
+  text-align: center;
+}
+
+nav ul{
+  width: 100%;
+  margin:0;
+  padding-left: 0;
+  text-align:center;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li{
+  display: none;
+  list-style-type: none;
+}
+.menuItem a:hover{
+  color: #28fffb;
+  list-style-type: none;
+}
+
+.sandwich{
+  display: block;
+  border: 1px solid black;
+  user-select: none;
+}
+.sandwich :hover{
+  cursor:default;
+}
+
+/* togglables */
+.hide{
+  transition-duration: 0.5s;
+  display: block;
+}
+.shrink{
+  height: 0;
+}
+.blueNav{
+  background-color: rgba(0, 78, 204, 0.25);
+}
+
+.submitted{
+  color: white;
+  font-size:  2.5em;
+  padding: 1em;
+}
+
+@media (min-width: 700px){
+  .sandwich{
+    display: none;
+    transition: all 2s linear;
+  }
+
+  nav{
+    border: 1px solid black;
+  }
+  nav ul li{
+
+    margin-left: 3%;
+    padding-left: 2em;
+    padding-right: 2em;
+    display: inline;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+  }
+}
+footer{
+  display: none;
+}

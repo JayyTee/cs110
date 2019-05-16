@@ -1,0 +1,59 @@
+body{
+  background-image: url("../images/pic3.jpg");
+  background-size: cover;
+  width: 100%;
+  margin: 0;
+}
+
+main{
+   text-align: center;
+}
+.container{
+  padding-top: .2em;
+  font-family:sans-serif;
+  background-color: rgba(0, 78, 204, 0.5);
+  border-radius: .5em .5em .5em .5em;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 6em;
+  text-align: center;
+  transition: all .5s ease;
+}
+
+fieldset{
+  border: none;
+}
+
+input{
+  border-radius: .5em .5em .5em .5em;
+  width: 60%;
+  height: 2em;
+  border: 1px solid black;
+}
+
+button{
+  padding: .5em;
+  border: none;
+  width: 60%;
+  background: #4253ff;
+  border-radius: .5em .5em .5em .5em;
+}
+textarea{
+  width: 60%;
+  height: 5em;
+}
+
+form{
+  color: white;
+  padding-bottom: 2em;
+
+}
+
+
+
+@media (min-width: 600px){
+  .container{
+    width: 50%;
+    margin-left: 25%;
+  }
+}
