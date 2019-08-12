@@ -1,3 +1,4 @@
+//this code was hacked together for a small assignment. this is not a representation of my skill level
 
 navBar();
 signUp();
